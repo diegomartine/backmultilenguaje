@@ -1,0 +1,29 @@
+{
+    "articulos":
+    [
+        {
+            "id":1,
+            "ref":"PROD-001",
+            "nombre":"corsa", 
+            "descript": "carro corsa",
+            "precio": 1500,
+            "taxes": 0.19
+        }
+    ], 
+    "pedidos":
+    [
+        {
+            "id": 1, 
+            "products": 
+            [
+                {
+                    "id": 1, 
+                    "ref": "PROD-001", 
+                    "cant": 1
+                }
+            ],
+            "precio": 1500, 
+            "total": 1785
+        }
+    ]
+}
